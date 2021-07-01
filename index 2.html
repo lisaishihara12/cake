@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/1dfa588bb9.js" crossorigin="anonymous" defer></script>
+
+    <title>cakes</title>
+</head>
+
+<body>
+    <!-- 1 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand " href="/">d'or</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <!-- この下の行に mr-auto クラスを付与するだけ -->
+                <ul class="navbar-nav mr-auto">　
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Home
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">HOME 01</a>
+                            <a class="dropdown-item" href="#">HOME 02</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Page
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">About Us</a>
+                            <a class="dropdown-item" href="#">Our Services</a>
+                            <a class="dropdown-item" href="#">FAQs</a>
+                            <a class="dropdown-item" href="#">Booking</a>
+                            <a class="dropdown-item" href="#">CALENDER</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Our Menu
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">MENU 1</a>
+                            <a class="dropdown-item" href="#">MENU 2</a>
+                            <a class="dropdown-item" href="#">MENU 3</a>
+                        </div>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <div class="logo-top">
+                    <img src="img/top-logo.png" alt="">
+                </div>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- カルーセル-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/topcake.png" alt="">
+                <div class="carousel-caption">
+                    <h6>Cakes & Bakery</h6>
+                    <h1>Occasion Cakes</h1>
+                    <p>the Best Coffee In China</p>
+                    <a href="#" class="btn text-white">About Us</a>
+                    <a href="#" class="btn2">Subscribe Now</a>
+                </div>
+            </div>
+            <!-- カルーセル２-->
+            <div class="carousel-item">
+                <img src="img/topcake2.png" alt="">
+                <div class="carousel-caption">
+                    <h6>Cakes & Bakery</h6>
+                    <h1>Welcome To Bakery</h1>
+                    <p>the Best Coffee In New York</p>
+                    <a href="#" class="btn text-white">About Us</a>
+                    <a href="#" class="btn2">Subscribe Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+    </div>
+
+
+    <!-- ４つの商品紹介 -->
+    <div class="container-fluid" style="background-image: url(./img/cakebg2.png); background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card tranceform text-white">
+                        <img src="img/capcake2.png" class="card-img" alt="...">
+                        <div class="card-img-overlay text-center">
+                            <h2 class="card-title">Macarons</h2>
+                            <p class="card-text">Lorem Ipsum is simply</p>
+                            <a href="#" class="btn btn-primary">More details<i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card tranceform text-white">
+                        <img src="img/capcake1.png" class="card-img" alt="...">
+                        <div class="card-img-overlay text-center">
+                            <h2 class="card-title">Small Cakes</h2>
+                            <p class="card-text">Lorem Ipsum is simply</p>
+                            <a href="#" class="btn btn-primary">More details<i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card tranceform text-white">
+                        <img src="img/icebar.png" class="card-img" alt="...">
+                        <div class="card-img-overlay text-center">
+                            <h2 class="card-title">Occasion Cakes</h2>
+                            <p class="card-text">Lorem Ipsum is simply</p>
+                            <a href="#" class="btn btn-primary">More details<i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card tranceform text-white">
+                        <img src="img/icecream1.png" class="card-img" alt="...">
+                        <div class="card-img-overlay text-center">
+                            <h2 class="card-title">Cupcakes</h2>
+                            <p class="card-text">Lorem Ipsum is simply</p>
+                            <a href="#" class="btn btn-primary">More details<i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- アイコンCupcake -->
+    <div class="container-fluid" style="background-image: url(./img/cakebg2.png); background-size: cover;">
+        <div class="container">
+            <di class="row">
+
+                <div class="col-md-12 text-center my-5 ">
+                    <div class="icon_item">
+                        <img src="img/cupcakepink.png" alt="">
+                        <h3> It's a party and you're invited</h3>
+                        <p class="main-text">Join DexignZone<strong>Bakery</strong>to earn Gold level benefits
+                            like free
+                            Cakes and
+                            <br>food, get free refills,pay and order with your phone, and more.</p>
+                        <h6>Exclusive deals Cakes, delivered straight to your inbox join Now</h6>
+
+                    </div>
+                </div>
+        </div>
+        </di>
+    </div>
+
+    <!-- ケーキ画像左１　-->
+    <div class="container-fluid">
+        <div class="fixed-background" style="background-image: url(./img/bgcake2.png); background-size: cover;">
+            <div class="container">
+                <di class="row">
+                    <div class="scroll-background">
+                        <div class="col-md-12 text-center text-white my-5">
+                            <div class="section_menu">
+                                <h2>What Do We Offer For You?</h2>
+                                <p class="text-bold">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry.Lorem
+                                    <br>ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                <hr size="5">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!--ケーキメニュー６  -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/cakered.png" alt="">
+                            </div>
+
+                            <div class="col-md-4 text-left mt-2">
+                                <div class="icon_list">
+                                    <img src="img/cake-icon1.png" alt="">
+                                    <div class="icon_list2 text-white">
+                                        <h3>Pancakes</h3>
+                                        <p>Lorem Ipsum is dumy</p>
+                                    </div>
+                                </div>
+
+                                <div class="icon_list">
+                                    <img src="img/birthday-cake.png" alt="">
+                                    <div class="icon_list2 text-white">
+                                        <h3>Muffin</h3>
+                                        <p>Lorem Ipsum is dumy</p>
+                                    </div>
+                                </div>
+                                <div class="icon_list">
+                                    <img src="img/cupcake-icon2.png" alt="">
+                                    <div class="icon_list2 text-white">
+                                        <h3>Pumpkin cakes</h3>
+                                        <p>Lorem Ipsum is dumy</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left mt-2">
+                                <div class="icon_list">
+                                    <img src="img/muffin.png" alt="">
+                                    <div class="icon_list2 text-white">
+                                        <h3>Pumkin cupcakes</h3>
+                                        <p>Lorem is dumy</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="icon_list">
+                                    <img src="img/piece-of-cake.png" alt="">
+                                    <div class="icon_list2 text-white">
+                                        <h3>Cake Services</h3>
+                                        <p>Lorem Ipsum is dumy</p>
+                                    </div>
+                                </div>
+
+                                <div class="icon_list">
+                                    <img src="img/cupcake-icon.png" alt="">
+                                    <div class="icon_list2 text-white">
+                                        <h3>Birthday Cake</h3>
+                                        <p>Lorem Ipsum is dumy</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- アコーディオンメニュー -->
+    <div class="container-fluid" style="background-image: url(./img/bgicebar.png);">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-md-6 text-center mt-5">
+                    <div class="duide_menu">
+                        <h2>Sale And Delivery Points</h2>
+                        <h6 class="text-bold">Where to buy our high quality Cake</h6>
+                        <hr>
+                        <p class="my-5">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            <br>industry. Lorem Ipsum has been the industry's standard dummy text ever
+                            <br>since the 1500s, when an unknown printer took a galley.
+                            <br>
+                            <br>
+                            First and foremost I am achef,whether behind the stove at one of my
+                            <br>Northern California restaurants or for the past 15 years in front of the
+                            <br>Lorem Ipsum is simply<strong>Bakery</strong>dummy text of the printing and
+                            <br>typesetting industry. Lorem Ipsum has been the industry's standard
+                            <br>dummy text ever since the 1500s' when an unknow printer took.
+                            <br>
+                            <br>
+                            <br>Lorem Ipsum is simply dummy text of the printing and typesetting
+                            <br>industry. Lorem Ipsum has been the industry's standard dummy text ever
+                            <br>since the 1500s, when an unknown printer took a galley.
+                        </p>
+                        <a href="#" class="btn btn-text-centar mb-5"><i class="fas fa-chevron-right"></i>Get
+                            Started</a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fas fa-cart-plus"></i>
+                                    Where buy our Cake?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body1 text-center mt-3">
+                                    <img src="img/map.jpg" alt="">
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">Germany (26)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">France (19)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">Itally (54)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">England (76)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">Canada (61)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">Brazil (46)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">Russia (17)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">Africa (92)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">USA (124)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">Denmark (23)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">Finland (41)</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <a href="#">Asia (101)</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="far fa-address-book"></i>
+                                    Become our dealer
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="row no-gutters">
+                                    <div class="col-4 mt-5">
+                                        <img src="img/アコーディオンcake.png" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum is simply dummy text of the printing and typesetting
+                                                industry. Lorem
+                                                Ipsum has been the industry's Standard dummy text ever since the
+                                                1500s,
+                                                Lorem ipsum is simply dummy text of the printing and typesetting
+                                                industry. Lorem
+                                                Ipsum has been the industry's Standard dummy text ever since the
+                                                1500s,
+                                                Lorem Ipsum has been the industry's Standard dummy text ever and
+                                                scrambled it to
+                                                make a type specimen book. it has survived not only five
+                                                centuries,
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="fab fa-cc-discover"></i>
+                                    Get your discount
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body mx-3 my-4">
+                                    Lorem ipsum is simply dummy text of the printing and typesetting
+                                    <br>industry. Lorem Ipsum has been the industry's Standard dummy
+                                    <br>text ever since the 1500s,
+                                    <br>
+                                    <br>
+                                    when an unknown printer took a galley of type and scrambled it
+                                    <br>to make a type specimen book. it has survived not only five
+                                    centuries,
+                                    <br>
+                                    <br>
+                                    Lorem Ipsum has been the industry's Standard dummy text ever
+                                    <br>since the 1500s,when an unknown printer took a galley of type
+                                    <br>and scrambled it to make a type specimen book. it has survived
+                                    <br>not only five centuries,
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ケーキ写真 横並び -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="cake-menu tranceform-menu">
+                    <img src="img/cupcake-4.png" class="img-fluid" alt="">
+                    <div class="cake-info">
+                        <h2>Vegan Pie</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="cake-menu">
+                    <img src="img/cupcake6.png" class="img-fluid" alt="">
+                    <div class="cake-info">
+                        <h2>Lemon Cake</h2>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="cake-menu">
+                    <img src="img/cupcake7.png" alt="">
+                    <div class="cake-info">
+                        <h2>Wedding Cake</h2>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="cake-menu">
+                    <img src="img/cupcake8.png" alt="">
+                    <div class="cake-info">
+                        <h2>Fruit Cake</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 8 -->
+    <div class="container-fluid" style="background-image: url(./img/bgicebar.png);">
+        <div class="container mt-5">
+            <di class="row">
+                <div class="col-md-12 text-center">
+                    <div class="item_cup">
+                        <img src="img/cupcakepink.png" alt="">
+                        <h3> We Are Professional at Our Skills</h3>
+                        <p>More than 2000+ customers trusted us</p>
+                    </div>
+                </div>
+        </div>
+        <!-- 数字 -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="counter-num">
+                        <span class="counter-text">53</span>
+                        <small>+</small>
+                        <p>Years of Experience</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter-num">
+                        <span class="counter-text">102</span>
+                        <p>Awards Wins</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter-num">
+                        <span class="counter-text">36</span>
+                        <small>k</small>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="counter-num">
+                        <span class="counter-text">99</span>
+                        <p>perfect Products</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ホットケーキ　-->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 m-0">
+
+                    <img src="img/cakemake.png" class="img-fluid" alt="">
+
+                </div>
+
+
+                <div class="col-md-6 m-0 p-0">
+                    <div class="cake_section text-center">
+                        <h4 class="text-white">Limited Time Offer</h4>
+                        <h6>Wedding Cake Sale !</h6>
+                        <img src="img/cookie.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <br>sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <a href="#" class="btn">GET NOW</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- イラストアイコン -->
+        <div class="container mt-5 text-center">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo_icon">
+                        <img src="img/icon2.png" alt="" class="hover6">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/icon1.png" alt="" class="hover6">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/icon3.png" alt="" class="hover6">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/icon4.png" alt="" class="hover6">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/icon5.png" alt="" class="hover6">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/icon6.png" alt="" class="hover6">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 12 -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="icon_item2">
+                        <img src="img/cupcakepink.png" alt="">
+                        <h3 class="blog-cake">From The Blog</h3>
+                        <p>Latest news and updates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- カード -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 24rem;">
+                        <img src="img/blogcake1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text">Understand The Background Of Bakery Now.</p>
+                            <i class="far fa-folder-open"></i>
+                            <span>Cake,Biscuits</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 24rem;">
+                        <img src="img/blogcake2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text">Seven Reliable Sources To Learn About Bakery.</p>
+                            <i class="far fa-folder-open"></i>
+                            <span>Cake,Biscuits</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card" style="width: 24rem;">
+                        <img src="img/blogcake3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text">Ten Places That You Can Find Bakery.</p>
+                            <i class="far fa-folder-open"></i>
+                            <span>Cake,Biscuits</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid1" style="background-image: url(./img/topcake.png);" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="wedget_list">
+                        <h6 class="footer-title text-white ">Contact Us</h6>
+                        <p><i class="fas fa-map-marker-alt"></i>Marmora City, Vietnam</p>
+                        <p><i class="fas fa-phone-alt"></i>0800-123456</p>
+                        <p><i class="fas fa-mobile-alt"></i>(+91)0800-123456</p>
+                        <p><i class="far fa-envelope"></i>info@Example.Com</p>
+                    </div>
+                </div>
+
+                <!--2 -->
+                <div class="col-md-3 mt-5">
+
+                    <div class="wedget_list2">
+                        <h5 class="footer-title text-white">Recent Post</h5>
+                        <div class="post_item">
+                            <img src="img/footercake.png" alt="">
+                            <h6>The Background Of
+                                <br>Bakery Now</h6>
+                            <p><i class="far fa-clock"></i>March 25, 2020</p>
+                        </div>
+                    </div>
+                    <div class="wedget_list2">
+                        <div class="post_item">
+                            <img src="img/footercake.png" alt="">
+                            <h6>The Background Of
+                                　<br>Bakery Now</h6>
+                            <p><i class="far fa-clock"></i>March 25, 2020</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--3 -->
+                <div class="col-md-3 mt-5">
+                    <div class="link_info text-white">
+                        <h6 class="footer-table mb-4">Quick Links</h6>
+                        <div class="footer_table">
+                            <p><i class="fas fa-chevron-right"></i>Home</p>
+                            <p><i class="fas fa-chevron-right"></i>Our Menu</p>
+                            <p><i class="fas fa-chevron-right"></i>Blog</p>
+                            <p><i class="fas fa-chevron-right"></i>Contact</p>
+                            <p><i class="fas fa-chevron-right"></i>Calendar</p>
+                            <p><i class="fas fa-chevron-right"></i>About</p>
+                            <p><i class="fas fa-chevron-right"></i>FAQ</p>
+                            <p><i class="fas fa-chevron-right"></i>Shop</p>
+                            <p><i class="fas fa-chevron-right"></i>Team</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--4 -->
+                <div class="col-md-3 mt-5">
+                    <div class="footer-title4">
+                        <h6>Opening Hours</h6>
+                        <p class="m-b20 text-white">Our support available to help you 24 hours a day, seven days
+                            a
+                            week.</p>
+                    </div>
+                    <div class="work-time">
+                        <ul class="text-white">
+                            <li>Monday to Friday</li>
+                            <p>7AM - 5PM</p>
+                            <li>Saturday</li>
+                            <p>10AM - 5PM</p>
+                            <li>Sunday</li>
+                            <p>Closed</p>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="box">
+                        <div class="col-md-6">
+                            <div class="end">
+                                <span>Copyright@ 2021 DexignZone.all rights reserved.</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="end_2 text-white">
+                                <span>About Us Faq</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script>
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.top_image1 {
+  background-image: url(../img/top\ cake.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  background-size: cover;
+}
+
+.top_image2 {
+  background-image: url(../img/topcake2.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  background-size: cover;
+}
+.carousel-caption h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "Courgette", cursive;
+}
